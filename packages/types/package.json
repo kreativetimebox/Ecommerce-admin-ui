@@ -1,0 +1,9 @@
+{
+  "name": "@commerce/types",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "lint": "prettier --check .", "typecheck": "tsc --noEmit", "test": "node -e \"console.log('No type tests yet')\"" },
+  "devDependencies": { "prettier": "^3.5.3", "typescript": "^5.7.3" }
+}
